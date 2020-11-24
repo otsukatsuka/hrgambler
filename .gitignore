@@ -366,5 +366,7 @@ tags
 
 # End of https://www.toptal.com/developers/gitignore/api/python,macos,emacs,vim,pycharm,venv,vscode
 
+### project ###
+hrgambler/crawler
 ### other ###
 *.csv
