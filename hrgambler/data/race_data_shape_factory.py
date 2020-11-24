@@ -15,10 +15,3 @@ class RaceDataShapeFactory(Factory):
     def __del__(self):
         self.__loader.close_file()
 
-
-if __name__ == '__main__':
-    loader = Loader(path='/Users/s.otsuka/Projects/hrgambler/crawler/out.csv')
-    factory = RaceDataShapeFactory()
-    s = factory.create(loader)
-    # s.specify_column([RaceDataColumnType.NUMBER, RaceDataColumnType.JOCKEY])
-    s.all_column()
